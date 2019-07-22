@@ -1,7 +1,7 @@
 const angkaPrima = angka => {
 	let i = 2;
 
-	if (!angka) return false;
+	if (angka <= 2) return false;
 	while (i < angka) {
 		if (angka%i === 0) return false;
 		i++;
